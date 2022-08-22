@@ -1,5 +1,5 @@
 name: Pull Request
-on: [pull-request]
+on: [pull_request]
 jobs:
     PullRequest:
         runs-on: unbuntu-latest
