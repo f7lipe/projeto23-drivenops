@@ -1,5 +1,5 @@
 services:
-    postgres_sorteador_db:build: 
+    postgres_sorteador_db: 
         image: postgres
         container_name: postgres_sorteador_db
         restart: always
@@ -38,6 +38,6 @@ services:
             - react_sorteador_app
             - node_sorteador_app
 
-    volumes:build:
+    volumes:
         postgres_sorteador_db:
         build_react:
