@@ -15,4 +15,4 @@ RUN npm i
 RUN npm run build
 
 # só quando eu estiver rodando isso como container
-CMD ["npm", "index.js"]
+CMD ["npm", "start"]
